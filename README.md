@@ -2,7 +2,7 @@
 
 An interactive web app for analyzing Fama-French 12 Industry Portfolio data. It builds a tangency portfolio from a historical estimation period and evaluates its out-of-sample performance against an equally weighted portfolio.
 
-**Live app:** *(add your Streamlit Cloud URL here once deployed)*
+**Live app:** *https://famafrench-2j4gnjplf8a2pazqxqmvmr.streamlit.app/*
 
 ---
 
@@ -21,33 +21,6 @@ Regardless of how you run the app, you will need to download the data file first
 1. Go to: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 2. Under **Industry Portfolios**, find **"12 Industry Portfolios"** and download the CSV (monthly, value-weighted returns)
 3. Extract the `.CSV` file from the zip — it will be named `12_Industry_Portfolios.CSV`
-
----
-
-## Deploying to Streamlit Cloud (for the app owner)
-
-This is the recommended way to share the app with others. It's free and takes about 5 minutes.
-
-### Step 1 — Push to GitHub
-
-1. Create a free account at [github.com](https://github.com) if you don't have one
-2. Create a new **public** repository (e.g., `portfolio-analyzer`)
-3. Upload these three files to the repository:
-   - `app.py`
-   - `requirements.txt`
-   - `.streamlit/config.toml`
-
-   You can drag and drop them directly on the GitHub website — no terminal needed.
-
-### Step 2 — Deploy on Streamlit Cloud
-
-1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with your GitHub account
-2. Click **"New app"**
-3. Select your repository and set the main file path to `app.py`
-4. Click **"Deploy"** — it will build and launch automatically in about a minute
-5. Copy the URL it gives you and share it with anyone
-
-That's it. Anyone with the link can open the app in their browser — no installs required.
 
 ---
 
